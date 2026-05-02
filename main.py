@@ -111,3 +111,5 @@ personal_agent = JarvisAgent(
 response = personal_agent(query)
 print("Messages", personal_agent.messages)
 print("Response from Alex: ", response)
+
+#this does not create any framework or anything, this code tells me what works and what does not work when I try to use the Groq API to create an agent that can use tools. The code defines a simple tool (get_temperature) and an agent (JarvisAgent) that can call this tool when needed. The agent interacts with the Groq API to generate responses and decide when to use the tool based on the user's query.
